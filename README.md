@@ -1,27 +1,52 @@
-# React + TypeScript + Vite
+#TOMAR EN CUENTA LOS SIGUIENTES PASOS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+-----------------------------------------------------------------------------------------------------------------
+#TENER DESCARGADO EL XAMPP
+#TENER DESCARGADO EL VISUAL STUDIO CODE
 
-Currently, two official plugins are available:
+-----------------------------------------------------------------------------------------------------------------
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#PARA VINCULAR NUESTRA BASE DE DATOS HACER LO SIGUIENTE
+------------------------------------------------------------------------------------------------------------------
+1. ABRIR EL XAMPP
+2. PRESIONAR EN START EN LA OPCION DE "APACHE" Y "MYSQL"
+3. INGRESAR AL NAVEGADOR
+4. NGRESAR: http://localhost/dashboard/
+5. SELECCIONAR EN LA VENTANA QUE DICE "PhPMyAdmin"
+6. CUANDO SE EINGRESA APARECE ULA BASE DE DATOS VACIA
+7. HACEMOS CLIC EN LA OPCION QUE DICE "NUEVA"
+8. COLOCAMOS EL NOMBRE A LA BASE: EN ESTE CASO ES: hotel //// todo minusculas
+9. ACEPMOS CLICK EN CREAR
+10. NOS DIRIGIMOS A LA BASE CREADA QUE DICE "hotel"
+11. EN ESTE PUNTO VAMOS A IMPORTAR LA BASE DE DATOS
+12. VAMOS A LA OPCION DE IMPORTAR
+13. SELECCIONAMOS EL ARCHIVO A IMPORTAR
+14. EL ARCHIVO QUE SE IMPORTA ES EL QUE YA HEMOS DESCARGADO QUE TIENE EL NOMBRE DE "hotel"
+15. CUANDO HAYA CARGADO EL ARCHIVO, NOS DIRIGIMOS HACIA EL FINAL DE LAS OPCIONES Y NOS DICE IMPORTAR, HACEMOS CLICK
+16. Y LISTO TENEMOS QUE ESPERAR UNOS SEGUNDOS Y SE NOS IMPORTA LA BASE DE DATOS
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+#PARA EJECUTAR EL CODIGO EN EL VISUAL STUDIO CODE
+------------------------------------------------------------------------------------------------------------------
+1.DESCARGAR EL ARCHIVO QUE DICE: hotel_web_integrador-main-zip
+2.DESCARGAR EL ARCHIVO: hotel.sql
+3.TENER INSTALADO EL VISUAL STUDIO CODE
+4. IR A DESCARGAS A POR LOS ARCHIVOS
+5. ENCONTRAR EL ZIP DESCARGADO Y EXTRAER LOS ARCHIVOS
+6. SE OBTENDRA UNA CARPETA CON TODO LO NECESARIO PARA QUE SE EJECUTE EL CÓDIGO
+7.ABRIR EL VISUAL STUDIO CODE Y DIRIGIRSE A LA PESTAÑA "FILE"
+8. SELECCIONA LA OPCION OPEN FOLDER
+9. Y SELECCIONAR Y ABRIR LA CARPETA QUE ACABAMOS DE EXTRAER DEL ZIP.
+10. CON ELLO TENEMOS EL CODIGO EN EL CODIGO LISTO PARA USAR
+11. NOS DIRIGIMOS DENTRO DEL VISUAL STUDIO CODE Y DENTRO DE NUESTRO PROYECTO SELECCIONAMOS DONDE DICE "SERVER"
+12. DESPUES HACEMOS CLICK EN "SRC"
+13. DESPUES HACEMOS CLICK EN "JAVA"
+14. DESPUES HACEMOS CLICK EN "ServerApplication.java"
+15. DESPUES LE DAMOS EN UN BOTON QUE TIENE UN SIMBOLO DE PLAY O EJECUTAR
+16. SE VA A COMENZAR A EJECUTAR EL SPRING
+17. EN EL NAVEGADOR COLOCAMOS:http://localhost:8080/
+18. Y NOS APARECERÁ LA PAGINA WEB PARA UTILIZARLA.
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
